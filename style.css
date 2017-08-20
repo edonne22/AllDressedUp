@@ -1,0 +1,285 @@
+h1{
+font-family: 'Quicksand', sans-serif;
+font-size: 1.8em;
+color: white;
+}
+#wrapper{
+width:1024px;
+height:768px;
+position:absolute;
+top:0; left:0;
+margin:0;
+background-color:#f2f2f2;
+z-index:-2;
+}
+header{
+position:absolute;
+width:1024px;
+height:48px;
+top:0;
+left:0;
+background-color:#97d9d2;
+border-bottom: 1px solid #8dc1bb;
+}
+
+#box{
+position:absolute;
+left:0;
+top:49px;
+height:719px;
+width:400px;
+background-color:#e2e2e2;
+z-index:-1;
+}
+
+#button_small{
+width:100px; 
+height:32px;
+padding:5px; 
+background-color:#8dc1bb;
+position:absolute;
+left:400px;
+font-family: 'Quicksand', sans-serif;
+font-size: 1.5em;
+text-align:center;
+/*text-shadow: 1px 1px 1px rgba(0,0,0,.5);*/
+border:2px solid #97d9d2;
+border-radius:10px;
+color: white;
+cursor:pointer;
+}
+
+#title{
+width:230px; 
+margin-left:auto; 
+margin-right:auto; 
+margin-top:-14px;
+}
+
+.window{
+position:absolute; 
+width:602px; 
+height:175px; 
+left:409px; 
+background-color:#f6f6f6; 
+border: 1px solid #d0f1ed;
+}
+
+.arrowLeft{
+background:url('img/arrows.png');
+background-position:0px 0px;
+background-size:96px 48px;
+width:48px;
+height:48px;
+cursor:pointer;
+position:absolute;
+top:60px;
+left:-8px;
+}
+.arrowRight{
+background:url('img/arrows.png');
+background-position: 48px 0px;
+background-size:96px 48px;
+width:48px;
+height:48px;
+cursor:pointer;
+position:absolute;
+top:60px;
+left:564px;
+}
+
+.hair_icon{
+background:url('img/hair.png') no-repeat 0px 0px;
+background-size:1001px 160px;
+width:160px;
+height:160px;
+float:left;
+cursor:pointer;
+background-color:#f2f2f2;
+border:2px solid #97d9d2;
+border-radius:10px;
+margin:5px;
+margin-top:5px;
+}
+#hair_3{
+background-position:18px -5px;
+}
+#hair_2{
+background-position:-113px 20px;
+}
+#hair_1{
+background-position:-240px 0px;
+}
+#hair_4{
+background-position:-360px 0px;
+}
+#hair_5{
+background-position:-490px 0px;
+}
+#hair_6{
+background-position:-614px 0px;
+}
+#hair_7{
+background-position:-730px 0px;
+}
+#hair_8{
+background-position:-861px 0px;
+}
+
+.shirt_icon{
+background:url('img/tops.png') no-repeat 0px 0px;
+background-size:1633px 189px;
+width:189px;
+height:150px;
+float:left;
+cursor:pointer;
+background-color:#f2f2f2;
+border:2px solid #97d9d2;
+border-radius:10px;
+margin:5px;
+margin-top:12px;
+}
+#top1{
+background-position:-10px 20px;
+}
+#top2{
+background-position:-202px 0px;
+}
+#top3{
+background-position:-405px 10px;
+}
+#top4{
+background-position:-623px 10px;
+}
+#top5{
+background-position:-823px 10px;
+}
+#top6{
+background-position:-1012px 0px;
+}
+#top7{
+background-position:-1230px 20px;
+}
+#top8{
+background-position:-1430px 12px;
+}
+.pants_icon{
+background:url('img/bottoms.png') no-repeat 0px 0px;
+background-size:1005px 160px;
+width:120px;
+height:160px;
+float:left;
+cursor:pointer;
+background-color:#f2f2f2;
+border:2px solid #97d9d2;
+border-radius:10px;
+margin:5px;
+margin-top:6px;
+}
+#bottom_1{
+background-position:-9px 40px;
+}
+#bottom_2{
+background-position:-131px 15px;
+}
+#bottom_3{
+background-position:-248px 0px;
+}
+#bottom_4{
+background-position:-375px 10px;
+}
+#bottom_5{
+background-position:-498px 10px;
+}
+#bottom_6{
+background-position:-620px 10px;
+}
+#bottom_7{
+background-position:-742px 30px;
+}
+#bottom_8{
+background-position:-864px -5px;
+}
+.shoes_icon{
+background:url('img/shoes.png') no-repeat 0px 0px;
+background-size:1011px 170px;
+width:170px;
+height:150px;
+float:left;
+cursor:pointer;
+background-color:#f2f2f2;
+border:2px solid #97d9d2;
+border-radius:10px;
+margin:5px;
+margin-top:10px;
+}
+#shoes_1{
+background-position:-20px -20px;
+}
+#shoes_2{
+background-position:-225px -50px;
+}
+#shoes_3{
+background-position:-430px -50px;
+}
+#shoes_4{
+background-position:-630px -50px;
+}
+#shoes_5{
+background-position:-835px -50px;
+}
+
+/*left side*/
+#human{
+background:url('img/body.png') 0 0;
+background-size:100%;
+position:absolute;
+width:296px;
+height:641px;
+top:110px;
+left:25px; 
+}
+
+#hair{
+background:url('img/hair.png') no-repeat -395px 0px;
+background-size:1565px 250px;
+position:absolute;
+width:191px;
+height:250px;
+top:63px;
+left:119px;
+z-index:1; 
+}
+
+#top{
+background:url('img/tops.png') no-repeat 0px 0px;
+background-size:2513px 291px;
+width:306px;
+height:291px;
+position:absolute;
+top:230px;
+left:37px;
+z-index:1;
+}
+
+#bottom{
+background:url('img/bottoms.png') no-repeat 0px 0px;
+background-size:2513px 399px;
+position:absolute;
+width:300px;
+height:399px;
+top:351px;
+left:25px; 
+z-index:1;
+}
+
+#shoes{
+background:url('img/shoes.png') no-repeat -313px 0px;
+background-size:1556px 261px;
+position:absolute;
+width:300px;
+height:261px;
+top:494px;
+left:25px;
+z-index:1;
+}

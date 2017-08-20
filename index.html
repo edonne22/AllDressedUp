@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>All Dressed Up</title>
+       <link rel="stylesheet" href="style.css"/>
+       <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+       
+        <script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/buttons.js"></script>
+
+    <head>
+    
+    <div id="wrapper">
+    <body>
+    	<header>
+    		<div id="title"><h1>All Dressed Up</h1></div>
+    	</header>
+    	
+    	<div id="viewer">
+    		<div id="box"></div>
+    		<div id="human"></div>
+    		<div id="hair"></div>
+    		<div id="shoes"></div>
+    		<div id="bottom"></div>
+    		<div id="top"></div>
+    		
+    	</div>
+    	
+    	<div id="button_small" class="reset" style="top:55px; left:5px;" onclick="reset();">Reset</div>
+    	
+    	<div class="window" style="top:51px;">
+    		<div id="b_1" class="arrowLeft"></div>
+    		<div id="container_1" style="width:550px; margin:auto; overflow-x:scroll;">
+    			<div id="inner" style="width:1400px;">
+    				<div class="hair_icon" id="hair_3" onclick="changeItem(this.id);"></div>
+    				<div class="hair_icon" id="hair_2" onclick="changeItem(this.id);"></div>
+    				<div class="hair_icon" id="hair_1" onclick="changeItem(this.id);"></div>
+    				<div class="hair_icon" id="hair_4" onclick="changeItem(this.id);"></div>
+    				<div class="hair_icon" id="hair_5" onclick="changeItem(this.id);"></div>
+    				<div class="hair_icon" id="hair_6" onclick="changeItem(this.id);"></div>
+    				<div class="hair_icon" id="hair_7" onclick="changeItem(this.id);"></div>
+    				<div class="hair_icon" id="hair_8" onclick="changeItem(this.id);"></div>
+    			</div>
+    		</div>
+    		<div id="1" class="arrowRight"></div>
+    	</div>
+    	
+    	<div class="window" style="top:230px;">
+    		<div id="b_2" class="arrowLeft"></div>
+    		<div id="container_2" style="width:550px; margin:auto; overflow-x:scroll;">
+    			<div id="inner" style="width:1432px;">
+    				<!--<div class="shirt_icon" id="top1" onclick="changeItem(this.id);"></div>-->
+    				<div class="shirt_icon" id="top2" onclick="changeItem(this.id);"></div>
+    				<div class="shirt_icon" id="top3" onclick="changeItem(this.id);"></div>
+    				<div class="shirt_icon" id="top4" onclick="changeItem(this.id);"></div>
+    				<div class="shirt_icon" id="top5" onclick="changeItem(this.id);"></div>
+    				<div class="shirt_icon" id="top6" onclick="changeItem(this.id);"></div>
+    				<div class="shirt_icon" id="top7" onclick="changeItem(this.id);"></div>
+    				<div class="shirt_icon" id="top8" onclick="changeItem(this.id);"></div>
+    			</div>
+    		</div>
+    		<div id="2" class="arrowRight"></div>
+    	</div>
+    	
+    	<div class="window" style="top:409px;">
+			<div id="b_3" class="arrowLeft"></div>
+    		<div id="container_3" style="width:550px; margin:auto; overflow-x:scroll;">
+    			<div id="inner" style="width:948px;">
+    				<!--<div class="pants_icon" id="bottom_1" onclick="changeItem(this.id);"></div>-->
+    				<div class="pants_icon" id="bottom_2" onclick="changeItem(this.id);"></div>
+    				<div class="pants_icon" id="bottom_3" onclick="changeItem(this.id);"></div>
+    				<div class="pants_icon" id="bottom_4" onclick="changeItem(this.id);"></div>
+    				<div class="pants_icon" id="bottom_5" onclick="changeItem(this.id);"></div>
+    				<div class="pants_icon" id="bottom_6" onclick="changeItem(this.id);"></div>
+    				<div class="pants_icon" id="bottom_7" onclick="changeItem(this.id);"></div>
+    				<div class="pants_icon" id="bottom_8" onclick="changeItem(this.id);"></div>
+    			</div>
+    		</div>
+    		<div id="3" class="arrowRight"></div>
+    	</div>
+    	
+    	<div class="window" style="top:588px;">
+    		<div id="b_4" class="arrowLeft"></div>
+    		<div id="container_4" style="width:550px; margin:auto; overflow-x:scroll;">
+    			<div id="inner" style="width:930px;">
+    				<div class="shoes_icon" id="shoes_1" onclick="changeItem(this.id);"></div>
+    				<div class="shoes_icon" id="shoes_2" onclick="changeItem(this.id);"></div>
+    				<div class="shoes_icon" id="shoes_3" onclick="changeItem(this.id);"></div>
+    				<div class="shoes_icon" id="shoes_4" onclick="changeItem(this.id);"></div>
+    				<div class="shoes_icon" id="shoes_5" onclick="changeItem(this.id);"></div>
+    			</div>
+    		</div>
+    		<div id="4" class="arrowRight"></div>	
+    	</div>
+	
+    </body>
+	</div>
+</html>
